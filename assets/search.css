@@ -1,0 +1,21 @@
+@import './colors.css';
+
+.conatiner {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    align-items: center;
+    justify-content: space-between;
+    margin: 1rem;
+}
+
+.conatiner .item {
+    padding: 0.5rem;
+}
+
+.container .item:hover {
+    position: relative;
+    top: -4px;
+    left: -4px;
+    box-shadow: 8px 8px 0px var(--Pink)
+}
