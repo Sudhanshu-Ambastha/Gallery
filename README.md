@@ -13,6 +13,11 @@ A simple photo search gallery that allows users to search and view photos from U
 
 Include screenshots or GIFs of the application in action.
 
+## Deployment
+
+The application is deployed and can be accessed via the following link: 
+[Photo Search Gallery](https://6629177d9d075f2caeba63d9--precious-bunny-1bb120.netlify.app/)
+
 ## Installation
 
 ### Clone the repository
