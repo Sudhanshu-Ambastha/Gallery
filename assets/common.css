@@ -1,66 +1,102 @@
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 @import './colors.css';
 
-body,h1,h2,h3,h4,h5,h6,p{
+body, h1, h2, h3, h4, h5, h6, p {
     margin: 0px;
-    padding: 0px;
+    padding: 0xp;
     font-family: 'Press Start 2P', cursive;
 }
 
-body{
-    background-color: var(--Light-Green);
+body {
+    background-color: var(--light-brown);
     min-height: calc(100vh - 5rem);
     position: relative;
     padding-bottom: 5rem !important;
+    display: inline-block;
+    width: 100%;
 }
 
-nav{
-    background-color: var(--Purple);
+nav {
+    background-color: var(--light);
+
 }
 
-nav .title{
+nav .title {
     padding: 0.75rem;
     padding-left: 0px;
-    color: var(--Light-blue);
+    color: var(--orange);
     text-decoration: none;
     display: inline-block;
 }
 
-nav .logo{
+nav .logo {
     height: 1.75rem;
-    margin: 0.75rem;
+    margin-left: 0.75rem;
 }
 
-nav from{
+nav form {
     display: inline;
     float: right;
     padding-top: 0.75rem;
     padding-right: 0.75rem;
 }
 
-nav .search{
+nav .search {
     font-family: 'Press Start 2P', cursive;
     padding: 0.25rem 0.75rem;
 }
 
-nav .search:focus{
+nav .search:focus {
     outline: none !important;
-    border: 1px solid var(--Pink);
+    border: 1px solid var(--orange);
 }
 
-.heading{
-    text-align:center;
+.heading {
+    text-align: center;
     margin: 1.75rem;
 }
 
-footer{
+footer {
     position: absolute;
     bottom: 0px;
-    background-color: var(--Purple);
-    width: calc(100% -1.5rem);
+    background-color: var(--light);
+    width: calc(100% - 1.5rem);
     padding: 0.75rem;
     display: flex;
-    flex-wrap:wrap;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+}
+
+@media screen and (max-width: 830px) {
+    footer h1 {
+        display: none;
+    }
+
+    footer {
+        flex-direction: column;
+        gap: 0.75rem;
+        text-align: center;
+    }
+
+    body {
+        min-height: calc(100vh - 10rem) !important;
+        padding-bottom: 10rem !important;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    nav {
+        display: inline-block;
+        width: 100%;
+    }
+
+    nav form {
+        float: none;
+        display: flex;
+        gap: 1.5rem;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-bottom: 0.75rem;
+    }
 }

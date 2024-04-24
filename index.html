@@ -1,39 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gallerie | A Photo Search App</title>
-    <link rel="stylesheet" href="./assets/common.css"/>
-    <link rel="stylesheet" href="./assets/index.css"/>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gallery | The Photo Search App</title>
+    <link rel="stylesheet" href="./assets/common.css" />
+    <link rel="stylesheet" href="./assets/index.css" />
 </head>
+
 <body>
+
     <!-- Navigation Bar-->
     <nav>
-        <a href="./"><img src='./assets/logo.png' alt="Logo" class="logo"/></a>
-        <a href="./"><h1 class="title">Gallerie</h1></a>
+        <a href="./"><img src="./assets/logo.png" alt="Logo" class="logo" /></a>
+        <a href="./">
+            <h1 class="title">GALLERY</h1>
+        </a>
         <form action="./search.html" method="get">
-            <input type="text" name="q" autocomplete="off" class="search" placeholder="Search anything"/>
-            <input type="submit" value="SEARCH" class="search"/>
+            <input type="text" name="q" autocomplete="off" class="search" placeholder="Search anything" />
+            <input type="submit" value="SEARCH" class="search" />
+        </form>
     </nav>
 
     <!-- Main Section-->
     <section>
-        <h1 class="heading">&lt;Home /&gt;</h1>
-        <div class="container" id="image-container"></div>
+        <h1 class="heading">&lt;HOME /&gt;</h1>
+        <div class="container" id="image_container"></div>
     </section>
 
     <!-- Footer of the page-->
     <footer>
-        <a href="./"><h5>Gallerie</h5></a>
-        <h1></h1>
-        <h5>Design and Developed by Sudhanshu</h5>
-        <h1></h1>
-        <a href="./"><h5>GitHub</h5></a>
+        <a href="./">
+            <h5>Gallery</h5>
+        </a>
+        <h1>|</h1>
+        <h5>Designed and Developed by Sudhanshu</h5>
+        <h1>|</h1>
+        <a href="https://github.com/Sudhanshu-Ambastha/Interactive-Photo-Album"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvJeSYcx6EyWld5H-Ay0PjjFOhd7l8hJ76fm3fQgs53g&s" width="50" height=50" /></a>
     </footer>
 
     <script src="./assets/common.js"></script>
     <script src="./assets/index.js"></script>
 </body>
+
 </html>

@@ -1,6 +1,6 @@
 @import './colors.css';
 
-.conatiner {
+.container {
     display: flex;
     flex-wrap: wrap;
     gap: 1rem;
@@ -9,7 +9,7 @@
     margin: 1rem;
 }
 
-.conatiner .item {
+.container .item {
     padding: 0.5rem;
 }
 
@@ -17,5 +17,5 @@
     position: relative;
     top: -4px;
     left: -4px;
-    box-shadow: 8px 8px 0px var(--Pink)
+    box-shadow: 8px 8px 0px var(--orange);
 }
