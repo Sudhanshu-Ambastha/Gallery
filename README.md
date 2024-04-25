@@ -10,8 +10,7 @@ A simple photo search gallery that allows users to search and view photos from U
 - Download the original photo.
 
 ## Screenshots
-
-Include screenshots or GIFs of the application in action.
+![Gallery](https://github.com/Sudhanshu-Ambastha/Gallery/assets/135802131/ae4645b9-849b-4847-abe9-32feaa41c322)
 
 ## Deployment
 
