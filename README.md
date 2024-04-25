@@ -9,13 +9,19 @@ A simple photo search gallery that allows users to search and view photos from U
 - Click on a photo to view its details.
 - Download the original photo.
 
-## Screenshots
+## App Preview
 ![Gallery](https://github.com/Sudhanshu-Ambastha/Gallery/assets/135802131/ae4645b9-849b-4847-abe9-32feaa41c322)
+
+## Certificate
+
+![Certificate](https://github.com/Sudhanshu-Ambastha/Gallery/assets/135802131/d10c16fb-4262-48c5-9820-7a5791b22d1f)
 
 ## Deployment
 
 The application is deployed and can be accessed via the following link: 
 [Photo Search Gallery](https://6629177d9d075f2caeba63d9--precious-bunny-1bb120.netlify.app/)
+
+
 
 ## Installation
 
@@ -72,4 +78,5 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 ## Font
 
 - [Press Start 2P](https://fonts.google.com/specimen/Press+Start+2P?query=press+#standard-styles)
+
 
