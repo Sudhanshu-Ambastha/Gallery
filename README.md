@@ -50,6 +50,10 @@ To use this application, you need an API key from Unsplash. Replace `API_KEY` in
 
 ```javascript
 const API_KEY = "YOUR_UNSPLASH_API_KEY";
+
+function convert_to_json(data) {
+  return data.json();
+}
 ```
 ## Technologies Used
 
