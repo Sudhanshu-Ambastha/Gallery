@@ -63,7 +63,6 @@ function convert_to_json(data) {
 
 ## Credits
 
-- **Designed and Developed by**: Sudhanshu
 - **API**: Unsplash
 
 ## Contributing
