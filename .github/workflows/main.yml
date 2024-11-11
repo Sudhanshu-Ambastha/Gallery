@@ -17,4 +17,4 @@ jobs:
         run: echo "API_KEY=${{ secrets.API_KEY }}" > api_key.txt
 
       - name: Use API Key in Your App
-        run: node your_script.js
+        run: node ../../assets/common.js
